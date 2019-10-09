@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'League Spartan';
   src: url('LeagueSpartanVariable.woff2') format('woff2');
+  font-display: optional;
 }
 
 /* Box sizing rules */
@@ -45,6 +46,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -111,7 +113,6 @@ main {
   display: inline-flex;
   flex-flow: row nowrap;
   align-items: center;
-  /* padding-right: .4em; */
 }
 
 #word--first {
@@ -139,10 +140,11 @@ main {
 /* CSS for the band list */
 
 .band-section {
-  width: 44vw;
-  position: absolute;
-  top: 40%;
-  left: calc(50% - 22vw);
+  /* width: 44vw; */
+  /* position: absolute; */
+  /* top: 40%; */
+  /* left: calc(50% - 22vw); */
+  margin: 0 .5rem;
 }
 
 .band-section ul {
@@ -181,6 +183,9 @@ main {
    bottom
    #121212
    no-repeat;
-
- background-size:100% 2px ; /*Setting the height of the lines, and a 100% width so it fills up its container*/
+ background-size:100% 2px ; 
 }
+ 
+/*Setting the height of the lines, and a 100% width so it fills up its container*/
+
+
